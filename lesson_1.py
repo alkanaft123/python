@@ -21,7 +21,9 @@ for symbol in str(number):
 
 a = input("Please enter first value")
 b = input("Please enter second value")
-a,b=b,a
+buffer = a
+a = b
+b = buffer
 print(a)
 print(b)
 
